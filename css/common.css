@@ -1,0 +1,40 @@
+:root{
+    --color-blue: rgba(0, 181, 226, 1);
+    --color-pink: rgba(240, 137, 156, 1);
+    --color-grey: rgba(101, 119, 144, 1);
+    --fontColor-black: #0F172A;
+    --font-p18: 18px;
+    --font-p14: 14px;
+    --font-h48: 48px;
+    --font-h60: 60px;
+    --fontWeight-600: 600;
+    --fontWeight-500: 500;
+    --fontWeight-400: 400;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter';
+    scroll-behavior: smooth !important;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+button{
+    outline: none;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
+.container{
+    max-width: 1600px;
+    margin: 0 auto;
+}

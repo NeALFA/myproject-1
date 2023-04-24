@@ -1,0 +1,37 @@
+@media (max-width:1310px) {
+    .pricing > .pricing-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    .pricing {
+        flex-direction: column;
+    }
+}
+@media (max-width:861px) {
+    .pricing > .pricing-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    .pricing > .pricing-card {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+}
+@media (max-width:450px) {
+    .pricing > .pricing-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    .pricing > .pricing-card {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+}
